@@ -8,3 +8,6 @@
 
 This repository is a template for Dogmatiq Go modules. Replace the string
 `GITHUB_REPO_NAME` in all files with the actual repo name.
+
+[Click here](https://github.com/dogmatiq/template/generate) to create a new
+repository from this template.
