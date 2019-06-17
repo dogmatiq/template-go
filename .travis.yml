@@ -1,8 +1,5 @@
 language: go
-go:
-- '1.12'
-before_install:
-- bash <(curl -s https://dogmatiq.io/makefiles/travis/protobuf)
+go: '1.12'
 install:
 - go mod download
 script: make ci
