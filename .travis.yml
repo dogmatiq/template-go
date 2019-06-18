@@ -1,7 +1,8 @@
 language: go
 go: '1.12'
-install:
-- go mod download
+env:
+- GO111MODULE=on
+install: go mod download
 script: make ci
 after_success: bash <(curl -s https://codecov.io/bash)
 cache:
