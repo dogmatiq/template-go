@@ -1,6 +1,6 @@
 # GITHUB_REPO_NAME
 
-[![Build Status](http://img.shields.io/travis/com/dogmatiq/GITHUB_REPO_NAME/master.svg)](https://travis-ci.com/dogmatiq/GITHUB_REPO_NAME)
+[![Build Status](https://github.com/dogmatiq/GITHUB_REPO_NAME/workflows/CI/badge.svg)](https://github.com/dogmatiq/GITHUB_REPO_NAME/actions?workflow=CI)
 [![Code Coverage](https://img.shields.io/codecov/c/github/dogmatiq/GITHUB_REPO_NAME/master.svg)](https://codecov.io/github/dogmatiq/GITHUB_REPO_NAME)
 [![Latest Version](https://img.shields.io/github/tag/dogmatiq/GITHUB_REPO_NAME.svg?label=semver)](https://semver.org)
 [![GoDoc](https://godoc.org/github.com/dogmatiq/GITHUB_REPO_NAME?status.svg)](https://godoc.org/github.com/dogmatiq/GITHUB_REPO_NAME)
