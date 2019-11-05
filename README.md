@@ -16,3 +16,6 @@ After creating a repository from this template, follow these steps:
 - Replace the string `GITHUB_REPO_NAME` in all files with the actual repo name.
 - Add a secret named `CODECOV_TOKEN` containing the codecov.io token for the new repository.
   The secret can be obtained from https://codecov.io/gh/dogmatiq/GITHUB_REPO_NAME/settings.
+- Rename `.dependabot/config.yml.example` to `config.yml`. This is necessary
+  because Dependabot will not inspect the commits from the template when a new
+  repository is created, and hence does not detect the repository.
