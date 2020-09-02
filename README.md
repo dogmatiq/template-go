@@ -20,7 +20,7 @@ After creating a repository from this template, follow these steps:
 - Run the commands below to rename `.template` files to their proper names:
 
     ```
-    mv .dependabot/config.yml.template .dependabot/config.yml
+    mv .github/dependabot.yml.template .github/dependabot.yml
     mv .gitignore.template .gitignore
     ```
 
