@@ -13,6 +13,9 @@ repository from this template.
 
 After creating a repository from this template, follow these steps:
 
+- On the settings page (https://github.com/dogmatiq/GITHUB_REPO_NAME/settings):
+  - Disable the "Wiki" feature
+  - Enable "Automatically delete head branches" under the "Merge button" section
 - Replace the string `GITHUB_REPO_NAME` in all files with the actual repo name.
 - Add a secret named `CODECOV_TOKEN` containing the codecov.io token for the new repository.
   - The secret is available [here](https://codecov.io/gh/dogmatiq/GITHUB_REPO_NAME/settings).
