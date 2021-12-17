@@ -8,4 +8,9 @@
 
 This repository is a template for Dogmatiq Go modules.
 
-Replace the string `GITHUB_REPO_NAME` in all files with the actual repo name.
+New repositories are created by adding to the Terraform configuration in
+[`dogmatiq/repos`](https://github.com/dogmatiq/repos). Do not manually create
+repositories.
+
+After the new repository is created, replace the string `GITHUB_REPO_NAME` in
+all files with the actual repo name.
