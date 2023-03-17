@@ -1,3 +1,3 @@
 module github.com/dogmatiq/GITHUB_REPO_NAME
 
-go 1.20
+go 1.19
